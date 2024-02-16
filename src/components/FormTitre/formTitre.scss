@@ -1,0 +1,12 @@
+@import "../../style/variables";
+.formTitre {
+  background-color: $color-backg-green;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  h2 {
+    color: $color-text-blue;
+  }
+}

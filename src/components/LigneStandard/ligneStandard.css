@@ -1,0 +1,39 @@
+.ligneStandard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.labelGauche {
+  background-color: rgb(165, 155, 155);
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 5px;
+}
+
+.valueLarge {
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  padding: 5px;
+  border-top: 4px solid;
+  border-color: rgb(165, 155, 155);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.ligneStandardGrand {
+  height: 60px;
+}
+
+.ligneStandardMoyen {
+  height: 50px;
+}
+
+.ligneStandardPetit {
+  height: 40px;
+}/*# sourceMappingURL=ligneStandard.css.map */

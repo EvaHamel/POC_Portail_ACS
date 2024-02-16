@@ -1,0 +1,14 @@
+@import "../components/FormTitre/formTitre.css";
+@import "../components/LigneStandard/ligneStandard.css";
+@import "../components/LigneDouble/ligneDouble.css";
+@import "../components/Formulaire/formulaire.css";
+@import "../components/Header/header.css";
+@import "../style/variables";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+}

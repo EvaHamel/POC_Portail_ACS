@@ -1,0 +1,23 @@
+@import "../../style/variables";
+.ligneStandardValue1 {
+  background-color: white;
+  width: 30%;
+  padding: 5px;
+  border-top: 4px solid;
+  border-color: $color-backg-gray;
+}
+
+.ligneStandardLabel2 {
+  background-color: $color-backg-gray;
+  width: 15%;
+  text-align: right;
+  padding: 5px;
+}
+
+.ligneStandardValue2 {
+  background-color: white;
+  width: 25%;
+  padding: 5px;
+  border-top: 4px solid;
+  border-color: $color-backg-gray;
+}
