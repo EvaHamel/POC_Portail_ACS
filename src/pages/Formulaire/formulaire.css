@@ -1,5 +1,25 @@
 .formulaire {
-  width: 1800px;
+  width: 1500px;
   margin: 10px;
   border: 1px solid;
-} /*# sourceMappingURL=formulaire.css.map */
+}
+
+.bouton {
+  background-color: rgb(177, 216, 119);
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  cursor: pointer;
+}
+.bouton p {
+  font-size: x-large;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.bouton:hover {
+  width: 210px;
+  filter: brightness(1.1);
+}/*# sourceMappingURL=formulaire.css.map */

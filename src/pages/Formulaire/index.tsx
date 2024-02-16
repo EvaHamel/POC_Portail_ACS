@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import FormTitre from "../../components/FormTitre";
 import LigneDouble from "../../components/LigneDouble";
 import LigneStandard from "../../components/LigneStandard";
@@ -121,9 +122,10 @@ function Formulaire() {
         />
         <p>{noteBasDePage}</p>
       </div>
-      <button onClick={() => generatePDF(getTargetElement)}>
-        Generate PDF
-      </button>
+
+      <div className="bouton" onClick={() => generatePDF(getTargetElement)}>
+        <p>Télécharger le PDF</p>
+      </div>
     </div>
   );
 }

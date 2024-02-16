@@ -1,5 +1,26 @@
+@import "../../style/variables";
 .formulaire {
-  width: 1800px;
+  width: 1500px;
   margin: 10px;
   border: 1px solid;
+}
+
+.bouton {
+  background-color: $color-backg-green;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  cursor: pointer;
+
+  p {
+    font-size: x-large;
+    margin: auto;
+    padding-top: 20px;
+  }
+}
+.bouton:hover {
+  width: 210px;
+  filter: brightness(1.1);
 }
